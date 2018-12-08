@@ -3,7 +3,7 @@ generate a list.
 
 Solution:
 
-p = 3.1415926535897931
-r = 6.0  # The diameter of the sphere is 12cm and the radius is half of the diameter, so the radius would be 6cm.
-v = 4.0/3.0*p*r**3  # The formula for the volume of a sphere is V=4/3*π*r^3
-print ('The volume of the sphere is: ', v)
+values = input("Enter a sequence of numbers separated by commas: ")
+l = values.split(",")
+
+print ('The list of numbers are: ', l)
